@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.5.2'
 gem 'sqlite3', :group => [:development, :test]
+gem 'pg'
 group :production do
   gem 'thin'
   gem 'pg'
