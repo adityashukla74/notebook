@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.5.2'
 gem 'sqlite3', :group => [:development, :test]
-gem 'pg'
+
 group :production do
   gem 'thin'
   gem 'pg'
@@ -25,3 +25,6 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'haml-rails', '~> 0.9.0'
+gem 'rails_12factor', group: :production
+
+ruby '2.2.1'
